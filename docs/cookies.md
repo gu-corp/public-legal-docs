@@ -4,28 +4,46 @@ title: Cookie Policy
 sidebar_position: 4
 ---
 
-# Cookie Policy
+## Introduction
 
-:::warning DRAFT — pending legal review
-This is a structural template, not a binding policy. No approved Cookie Policy
-currently exists for G.U. Group products. Replace every section with
-legal-approved copy — and keep it consistent with the cookies/trackers actually
-in use (e.g. analytics) — before treating this document as published.
-:::
+This Cookie Policy explains how G.U.Group Inc. ("we," "our," or "us") uses
+cookies and similar technologies when you visit our websites. It should be read
+together with our [Privacy Policy](/privacy).
 
-## 1. What cookies are
+## What Are Cookies
 
-_Brief explanation of cookies and similar technologies._
+Cookies are small text files that are placed on your device when you visit a
+website. They are widely used to make websites work, to improve their
+efficiency, and to provide information to the site's owners.
 
-## 2. Cookies we use
+## How We Use Cookies
 
-_Table of cookies by category (strictly necessary, analytics, preferences),
-purpose, and retention._
+We use the following categories of cookies:
 
-## 3. Managing cookies
+- **Strictly necessary cookies** enable core functionality such as security and
+  network management. You may disable these by changing your browser settings,
+  but this may affect how the website functions.
+- **Analytics cookies** help us understand how visitors interact with our
+  websites by collecting and reporting information anonymously, so that we can
+  improve our services.
+- **Preference cookies** allow the website to remember choices you make, such as
+  your language, to provide a more personalized experience.
 
-_How users can control cookies (browser settings, consent banner)._
+## Managing Cookies
 
-## 4. Contact
+Most web browsers allow you to control cookies through their settings. You can
+usually set your browser to block or delete cookies, or to notify you when a
+cookie is being set. Please note that disabling certain cookies may affect the
+availability and functionality of our websites.
 
-_Provide the contact route for cookie inquiries._
+## Changes to This Policy
+
+We may update this Cookie Policy from time to time. The most current version
+will always be available on this page.
+
+## Contact Us
+
+If you have any questions about this Cookie Policy, please contact us through
+our [contact page](https://www.gu-group.com/contact).
+
+_Last updated: January 2026_

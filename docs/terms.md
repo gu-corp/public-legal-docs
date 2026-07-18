@@ -4,38 +4,73 @@ title: Terms of Service
 sidebar_position: 3
 ---
 
-# Terms of Service
+## Introduction
 
-:::warning DRAFT — pending legal review
-This is a structural template, not a binding agreement. No approved Terms of
-Service currently exists for G.U. Group products. Replace every section with
-legal-approved copy before treating this document as published.
-:::
+These Terms of Service ("Terms") govern your access to and use of the websites,
+applications, and services provided by G.U.Group Inc. ("we," "our," or "us").
+By accessing or using our services, you agree to be bound by these Terms.
 
-## 1. Acceptance of terms
+## Use of Our Services
 
-_State that use of the product constitutes acceptance._
+You may use our services only in compliance with these Terms and all applicable
+laws. We may update, suspend, or discontinue any part of our services at any
+time. You are responsible for any devices, software, and connectivity required
+to access our services.
 
-## 2. The service
+## Eligibility
 
-_Describe the product and any eligibility requirements._
+You may use our services only if you are able to form a legally binding
+contract with us. If you use our services on behalf of an organization, you
+represent that you are authorized to accept these Terms on its behalf.
 
-## 3. Acceptable use
+## Acceptable Use
 
-_List prohibited conduct._
+You agree not to misuse our services. This includes, but is not limited to, not
+interfering with or disrupting the services, not attempting to access them
+using a method other than the interfaces and instructions we provide, and not
+using the services for any unlawful or fraudulent purpose.
 
-## 4. Intellectual property
+## Intellectual Property
 
-_Ownership of the product, marks, and user content licensing._
+Our services and their content, features, and functionality are owned by
+G.U.Group Inc. or its licensors and are protected by intellectual property
+laws. These Terms do not grant you any right to use our trademarks, logos, or
+other brand features.
 
-## 5. Disclaimers and limitation of liability
+## Third-Party Services
 
-_As-is disclaimer and liability caps, subject to applicable law._
+Our services may contain links to or integrations with third-party websites and
+services that we do not control. We are not responsible for the content or
+practices of those third parties, and your use of them is governed by their own
+terms.
 
-## 6. Governing law
+## Disclaimers
 
-_Specify governing law and dispute resolution._
+Our services are provided on an "as is" and "as available" basis without
+warranties of any kind, whether express or implied, to the maximum extent
+permitted by applicable law.
 
-## 7. Contact
+## Limitation of Liability
 
-_Provide the contact route for legal inquiries._
+To the maximum extent permitted by applicable law, G.U.Group Inc. shall not be
+liable for any indirect, incidental, special, consequential, or punitive
+damages arising out of or relating to your use of, or inability to use, our
+services.
+
+## Changes to These Terms
+
+We may revise these Terms from time to time. The most current version will
+always be available on this page. Your continued use of our services after any
+change constitutes your acceptance of the revised Terms.
+
+## Governing Law
+
+These Terms are governed by the laws of Japan, without regard to its conflict
+of law provisions.
+
+## Contact Us
+
+If you have any questions about these Terms, please contact us through our
+[contact page](https://www.gu-group.com/contact).
+
+_Last updated: January 2026_

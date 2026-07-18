@@ -4,8 +4,6 @@ title: Privacy Policy
 sidebar_position: 2
 ---
 
-# Privacy Policy
-
 ## Introduction
 
 G.U.Group Inc. ("we," "our," or "us") respects your privacy and is committed to
@@ -42,6 +40,6 @@ these rights, please contact us using the information provided below.
 
 If you have any questions or concerns about this Privacy Policy or our data
 practices, please contact us through our
-[Contact Us](https://www.gu-group.com/contact) page.
+[contact page](https://www.gu-group.com/contact).
 
 _Last updated: January 2026_
