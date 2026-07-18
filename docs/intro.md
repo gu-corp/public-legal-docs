@@ -5,12 +5,11 @@ slug: /
 sidebar_position: 1
 ---
 
-Legal and policy documents for G.U. Group products, including Lunascape and
-G.U. Wallet.
+Legal and policy documents for G.U. Group products.
 
 - [Privacy Policy](/privacy)
 - [Terms of Service](/terms)
 - [Cookie Policy](/cookies)
 
-These documents are provided in English and Japanese. The English version is
+These documents are provided in Japanese and English. The Japanese version is
 authoritative.

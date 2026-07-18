@@ -21,8 +21,8 @@ const config: Config = {
 
   onBrokenLinks: 'warn',
 
-  // English and Japanese are the authoritative languages. If other locales are
-  // added they are reference-only — the English version is authoritative.
+  // Japanese and English are maintained. The Japanese version is authoritative;
+  // any other locale, including English, is a reference translation.
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'ja'],

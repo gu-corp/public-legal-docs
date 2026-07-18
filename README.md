@@ -16,8 +16,8 @@ independently of any product release.
 
 - **Source of truth:** the Markdown files under `docs/` (English) and
   `i18n/ja/docusaurus-plugin-content-docs/current/` (Japanese).
-- **Authoritative languages:** English and Japanese. Other languages, if added,
-  are reference-only — the **English version is authoritative**.
+- **Authoritative language:** Japanese. English and any other locale are
+  reference translations — the **Japanese version is authoritative**.
 - **Documents:** Privacy Policy, Terms of Service, and Cookie Policy (en + ja).
   The Privacy Policy is carried over from gu-group-website; Terms and Cookie
   Policy are standard baseline drafts. All three should be confirmed by the
