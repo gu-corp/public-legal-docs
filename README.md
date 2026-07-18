@@ -40,7 +40,9 @@ npm run serve      # preview the production build
 
 Deployed on **Vercel** (see `vercel.json` — framework `docusaurus-2`, output
 `build/`). Push to `main` → production; pull requests → preview deployments.
-Intended custom domain: e.g. `legal.gu.net` (TBD).
+Production domain: <https://terms.gu-group.com> (CNAME → `cname.vercel-dns.com`
+in the `gu-group.com` Route 53 zone). Production is public; preview deployments
+are protected by Vercel Authentication.
 
 ## Design / dependency notes
 

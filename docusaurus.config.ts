@@ -13,7 +13,7 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://legal.gu.net',
+  url: 'https://terms.gu-group.com',
   baseUrl: '/',
 
   organizationName: 'gu-corp',
