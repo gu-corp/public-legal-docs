@@ -1,0 +1,5 @@
+# Legal documents require review by the legal owner before merge.
+# Replace @gu-corp/legal with the real GitHub team or user handle.
+
+/content/   @gu-corp/legal
+*           @gu-corp/legal
