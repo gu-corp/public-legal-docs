@@ -13,22 +13,6 @@ export const metadata = {
   description: 'Public legal and policy documents for G.U. Group products.',
 }
 
-const navbar = (
-  <Navbar
-    logo={<b>G.U. Group Legal</b>}
-    projectLink="https://github.com/gu-corp/public-legal-docs"
-  />
-)
-
-const footer = (
-  <Footer>
-    <span>
-      © {new Date().getFullYear()} G.U. Group. The English version of each
-      document is authoritative.
-    </span>
-  </Footer>
-)
-
 export default async function RootLayout({
   children,
   params,
@@ -45,13 +29,20 @@ export default async function RootLayout({
       <body>
         <Layout
           banner={
-            <Banner storageKey="legal-notice">
-              These documents are provided for reference. The English version is
+            <Banner storageKey="legal-authoritative-notice">
+              Reference copy — the English version of each document is
               authoritative.
             </Banner>
           }
-          navbar={navbar}
-          footer={footer}
+          navbar={
+            <Navbar
+              logo={<b>G.U. Group Legal</b>}
+              projectLink="https://github.com/gu-corp/public-legal-docs"
+            />
+          }
+          footer={
+            <Footer>© {new Date().getFullYear()} G.U. Group</Footer>
+          }
           pageMap={pageMap}
           docsRepositoryBase="https://github.com/gu-corp/public-legal-docs/tree/main"
           i18n={[
