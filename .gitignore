@@ -1,7 +1,14 @@
+# Dependencies
 /node_modules
-/.next
-/out
+
+# Docusaurus
+/.docusaurus
+/build
+
+# Vercel
 /.vercel
-*.tsbuildinfo
-next-env.d.ts
+
+# Misc
 .DS_Store
+*.log
+npm-debug.log*

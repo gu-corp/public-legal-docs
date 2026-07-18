@@ -1,50 +1,53 @@
 # public-legal-docs
 
 Public legal & policy documents for **G.U. Group** products (Lunascape,
-G.U. Wallet, and others). Built with [Nextra](https://nextra.site) (Next.js) and
-deployed on Vercel. Product sites link out to the documents hosted here so legal
-copy can be updated independently of any product release.
+G.U. Wallet, and others). Built with [Docusaurus](https://docusaurus.io) and
+deployed on Vercel. The design matches
+[gu-group-website](https://www.gu-group.com) (shared brand CSS, logo, footer).
+Product sites link out to the documents hosted here so legal copy can be updated
+independently of any product release.
 
 ## Scope
 
-- **Public-facing** legal/policy documents only (Privacy Policy, Terms of
-  Service, Cookie Policy, …). **Do not** put internal or confidential company
-  documents in this repository — it is published publicly.
+- **Public-facing** legal/policy documents only. **Do not** put internal or
+  confidential company documents in this repository — it is published publicly.
 
 ## Authoring model
 
-- **Source of truth:** the Markdown/MDX files under `content/`.
-- **Authoritative languages:** English (`content/en`) and Japanese
-  (`content/ja`). If other languages are added they are reference-only — the
-  **English version is authoritative** (stated in the site banner and footer).
-- **Versioning:** each document's front-matter carries `version`,
-  `effectiveDate` and `lastUpdated`. Historical versions are recoverable from
-  git history; cut a git tag for each effective-dated release.
+- **Source of truth:** the Markdown files under `docs/` (English) and
+  `i18n/ja/docusaurus-plugin-content-docs/current/` (Japanese).
+- **Authoritative languages:** English and Japanese. Other languages, if added,
+  are reference-only — the **English version is authoritative**.
+- **Documents:**
+  - **Privacy Policy** — imported from gu-group-website (real, en + ja).
+  - **Terms of Service** / **Cookie Policy** — DRAFT templates; no approved copy
+    exists yet. Replace with legal-approved text before treating as published.
+- **Versioning:** git history and tags preserve every past revision.
 - **Review:** every change goes through a pull request. `CODEOWNERS` requires
-  the legal owner to approve changes under `content/`.
-
-> The document bodies are currently **DRAFT templates** and must be replaced
-> with legal-approved copy before this site is treated as published.
+  the legal owner to approve changes.
 
 ## Development
 
 ```bash
 npm install
-npm run dev     # http://localhost:3000  (redirects to /en)
-npm run build   # static export of all locale routes
+npm start          # dev server (English)
+npm start -- --locale ja
+npm run build      # static build of en + ja into build/
+npm run serve      # preview the production build
 ```
 
 ## Deployment
 
-Deployed on **Vercel** (auto-detects Next.js). Push to `main` → production;
-pull requests → preview deployments. Intended custom domain: e.g.
-`legal.gu.net` (TBD).
+Deployed on **Vercel** (see `vercel.json` — framework `docusaurus-2`, output
+`build/`). Push to `main` → production; pull requests → preview deployments.
+Intended custom domain: e.g. `legal.gu.net` (TBD).
 
-## Dependency note
+## Design / dependency notes
 
-`zod` is pinned to **4.1.12** (exact). `nextra-theme-docs@4.6.1` declares
-`zod@^4.1.12`, but zod ≥ 4.4 changed object validation so that the theme's
-`<Layout>` (which strips `children` before parsing its props against a schema
-that lists `children`) throws `expected nonoptional, received undefined`. Keep
-zod pinned until Nextra/theme are upgraded to a version verified against newer
-zod.
+- Brand CSS is copied from `gu-group-website/src/css/custom.css`; logo and
+  favicon are copied from its `static/img/`. Keep them in sync when the group
+  brand changes.
+- `webpack` is pinned to **5.104.1** via `overrides`: webpack ≥ 5.108 ships a
+  stricter `ProgressPlugin` schema that Docusaurus 3.9.2 does not satisfy
+  (build fails with a ProgressPlugin `ValidationError`). This matches the
+  version gu-group-website builds against.

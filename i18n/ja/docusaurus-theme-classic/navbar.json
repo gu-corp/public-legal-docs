@@ -1,0 +1,10 @@
+{
+  "item.label.G.U.Group": {
+    "message": "G.U.Group",
+    "description": "Navbar item with label G.U.Group"
+  },
+  "logo.alt": {
+    "message": "G.U.Group ロゴ",
+    "description": "The alt text of navbar logo"
+  }
+}

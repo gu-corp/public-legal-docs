@@ -1,0 +1,26 @@
+{
+  "link.item.label.Privacy Policy": {
+    "message": "プライバシーポリシー",
+    "description": "The label of footer link with label=Privacy Policy"
+  },
+  "link.item.label.Terms of Service": {
+    "message": "利用規約",
+    "description": "The label of footer link with label=Terms of Service"
+  },
+  "link.item.label.Cookie Policy": {
+    "message": "Cookieポリシー",
+    "description": "The label of footer link with label=Cookie Policy"
+  },
+  "link.item.label.G.U.Group": {
+    "message": "G.U.Group",
+    "description": "The label of footer link with label=G.U.Group"
+  },
+  "copyright": {
+    "message": "© 2026 G.U.Group, Inc.",
+    "description": "The footer copyright"
+  },
+  "logo.alt": {
+    "message": "G.U.Group ロゴ",
+    "description": "The alt text of footer logo"
+  }
+}

@@ -1,17 +1,16 @@
 ---
+id: terms
 title: Terms of Service
-version: 0.0.0-draft
-effectiveDate: TBD
-lastUpdated: TBD
+sidebar_position: 3
 ---
 
 # Terms of Service
 
-> **DRAFT — pending legal review.** This is a structural template, not
-> legal advice or a binding agreement. Replace every section with copy approved
-> by the legal owner before publishing.
-
-**Version:** 0.0.0-draft · **Effective date:** TBD · **Last updated:** TBD
+:::warning DRAFT — pending legal review
+This is a structural template, not a binding agreement. No approved Terms of
+Service currently exists for G.U. Group products. Replace every section with
+legal-approved copy before treating this document as published.
+:::
 
 ## 1. Acceptance of terms
 
