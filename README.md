@@ -18,10 +18,9 @@ independently of any product release.
   `i18n/ja/docusaurus-plugin-content-docs/current/` (Japanese).
 - **Authoritative language:** Japanese. English and any other locale are
   reference translations — the **Japanese version is authoritative**.
-- **Documents:** Privacy Policy, Terms of Service, and Cookie Policy (en + ja).
-  The Privacy Policy is carried over from gu-group-website; Terms and Cookie
-  Policy are standard baseline drafts. All three should be confirmed by the
-  legal owner before being relied upon.
+- **Documents:** Privacy Policy, Terms of Use, and Security Policy (en + ja) —
+  the same set published on www.gu-group.com. Content is imported verbatim from
+  the live site to keep the two in sync. English is a reference translation only.
 - **Versioning:** git history and tags preserve every past revision.
 - **Review:** every change goes through a pull request. `CODEOWNERS` requires
   the legal owner to approve changes.

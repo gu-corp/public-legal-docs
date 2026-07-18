@@ -90,8 +90,8 @@ const config: Config = {
         {
           items: [
             { label: 'Privacy Policy', to: '/privacy' },
-            { label: 'Terms of Service', to: '/terms' },
-            { label: 'Cookie Policy', to: '/cookies' },
+            { label: 'Terms of Use', to: '/terms' },
+            { label: 'Security Policy', to: '/security' },
             { label: 'G.U.Group', href: 'https://www.gu-group.com' },
           ],
         },

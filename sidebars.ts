@@ -5,7 +5,7 @@ const sidebars: SidebarsConfig = {
     'intro',
     'privacy',
     'terms',
-    'cookies',
+    'security',
   ],
 }
 

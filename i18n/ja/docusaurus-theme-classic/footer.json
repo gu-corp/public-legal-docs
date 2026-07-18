@@ -3,13 +3,13 @@
     "message": "プライバシーポリシー",
     "description": "The label of footer link with label=Privacy Policy"
   },
-  "link.item.label.Terms of Service": {
+  "link.item.label.Terms of Use": {
     "message": "利用規約",
-    "description": "The label of footer link with label=Terms of Service"
+    "description": "The label of footer link with label=Terms of Use"
   },
-  "link.item.label.Cookie Policy": {
-    "message": "Cookieポリシー",
-    "description": "The label of footer link with label=Cookie Policy"
+  "link.item.label.Security Policy": {
+    "message": "セキュリティポリシー",
+    "description": "The label of footer link with label=Security Policy"
   },
   "link.item.label.G.U.Group": {
     "message": "G.U.Group",
