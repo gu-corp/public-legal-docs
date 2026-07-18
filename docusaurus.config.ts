@@ -62,16 +62,12 @@ const config: Config = {
         alt: 'G.U.Group Logo',
         src: 'img/gug-logo.svg',
         srcDark: 'img/gug-logo.svg',
-        href: '/',
+        href: 'https://www.gu-group.com',
+        target: '_self',
         width: 180,
         height: 50,
       },
       items: [
-        {
-          href: 'https://www.gu-group.com',
-          label: 'G.U.Group',
-          position: 'left',
-        },
         {
           type: 'localeDropdown',
           position: 'right',
