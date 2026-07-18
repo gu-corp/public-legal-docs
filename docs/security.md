@@ -22,4 +22,4 @@ G.U.Group Co., Ltd. (hereinafter referred to as "the Company") is committed to p
 - The ISMS Committee shall take the lead in setting and monitoring goals for maintaining and improving information security across all departments, and shall ensure that efforts are put into practice.
 - We shall provide education and training on the basic information security policy, related standards, and procedures, as well as education to develop the necessary competencies for all employees involved in information assets within the scope of application.
 
-_Established: June 1, 2024. G.U.Group Co., Ltd. President and Representative Director: Hidekazu Kondo_
+_Established: June 1, 2024. G.U.Group Co., Ltd._

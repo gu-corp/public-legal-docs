@@ -7,7 +7,7 @@ sidebar_position: 3
 **G.U. Wallet / Lunascape Wallet**
 
 _(English translation for reference purposes only. The Japanese version is
-authoritative; the English translation has no legal effect.)_
+authoritative.)_
 
 ## 1. General Provisions
 
